@@ -1,0 +1,230 @@
+MUTANT 1:	MM index.js Line 6:	`return `\u001B[${code + offset}m`;` > `return `\u001B[${code - offset}m`;'`
+MUTANT 2:	MM index.js Line 11:	`return `\u001B[${38 + offset};5;${code}m`;` > `return `\u001B[${38 - offset};5;${code}m`;'`
+MUTANT 3:	MM index.js Line 16:	`return `\u001B[${38 + offset};2;${rgb[0]};${rgb[1]};${rgb[2]}m`;` > `return `\u001B[${38 - offset};2;${rgb[0]};${rgb[1]};${rgb[2]}m`;'`
+MUTANT 4:	NCM index.js Line 132:	`if (typeof colorConvert[key] !== 'object') {` > `if (typeof colorConvert[key] === 'object') {'`
+MUTANT 5:	NCM index.js Line 138:	`if (key === 'ansi16') {` > `if (key !== 'ansi16') {'`
+MUTANT 6:	RAEM index.js Line 23:	`reset: [0, 0],` > `reset: [0],'`
+MUTANT 7:	RAEM index.js Line 23:	`reset: [0, 0],` > `reset: [0],'`
+MUTANT 8:	RAEM index.js Line 25:	`bold: [1, 22],` > `bold: [22],'`
+MUTANT 9:	RAEM index.js Line 25:	`bold: [1, 22],` > `bold: [1],'`
+MUTANT 10:	RAEM index.js Line 26:	`dim: [2, 22],` > `dim: [22],'`
+MUTANT 11:	RAEM index.js Line 26:	`dim: [2, 22],` > `dim: [2],'`
+MUTANT 12:	RAEM index.js Line 27:	`italic: [3, 23],` > `italic: [23],'`
+MUTANT 13:	RAEM index.js Line 27:	`italic: [3, 23],` > `italic: [3],'`
+MUTANT 14:	RAEM index.js Line 28:	`underline: [4, 24],` > `underline: [24],'`
+MUTANT 15:	RAEM index.js Line 28:	`underline: [4, 24],` > `underline: [4],'`
+MUTANT 16:	RAEM index.js Line 29:	`inverse: [7, 27],` > `inverse: [27],'`
+MUTANT 17:	RAEM index.js Line 29:	`inverse: [7, 27],` > `inverse: [7],'`
+MUTANT 18:	RAEM index.js Line 30:	`hidden: [8, 28],` > `hidden: [28],'`
+MUTANT 19:	RAEM index.js Line 30:	`hidden: [8, 28],` > `hidden: [8],'`
+MUTANT 20:	RAEM index.js Line 31:	`strikethrough: [9, 29]` > `strikethrough: [29]'`
+MUTANT 21:	RAEM index.js Line 31:	`strikethrough: [9, 29]` > `strikethrough: [9]'`
+MUTANT 22:	RAEM index.js Line 34:	`black: [30, 39],` > `black: [39],'`
+MUTANT 23:	RAEM index.js Line 34:	`black: [30, 39],` > `black: [30],'`
+MUTANT 24:	RAEM index.js Line 35:	`red: [31, 39],` > `red: [39],'`
+MUTANT 25:	RAEM index.js Line 35:	`red: [31, 39],` > `red: [31],'`
+MUTANT 26:	RAEM index.js Line 36:	`green: [32, 39],` > `green: [39],'`
+MUTANT 27:	RAEM index.js Line 36:	`green: [32, 39],` > `green: [32],'`
+MUTANT 28:	RAEM index.js Line 37:	`yellow: [33, 39],` > `yellow: [39],'`
+MUTANT 29:	RAEM index.js Line 37:	`yellow: [33, 39],` > `yellow: [33],'`
+MUTANT 30:	RAEM index.js Line 38:	`blue: [34, 39],` > `blue: [39],'`
+MUTANT 31:	RAEM index.js Line 38:	`blue: [34, 39],` > `blue: [34],'`
+MUTANT 32:	RAEM index.js Line 39:	`magenta: [35, 39],` > `magenta: [39],'`
+MUTANT 33:	RAEM index.js Line 39:	`magenta: [35, 39],` > `magenta: [35],'`
+MUTANT 34:	RAEM index.js Line 40:	`cyan: [36, 39],` > `cyan: [39],'`
+MUTANT 35:	RAEM index.js Line 40:	`cyan: [36, 39],` > `cyan: [36],'`
+MUTANT 36:	RAEM index.js Line 41:	`white: [37, 39],` > `white: [39],'`
+MUTANT 37:	RAEM index.js Line 41:	`white: [37, 39],` > `white: [37],'`
+MUTANT 38:	RAEM index.js Line 42:	`gray: [90, 39],` > `gray: [39],'`
+MUTANT 39:	RAEM index.js Line 42:	`gray: [90, 39],` > `gray: [90],'`
+MUTANT 40:	RAEM index.js Line 45:	`redBright: [91, 39],` > `redBright: [39],'`
+MUTANT 41:	RAEM index.js Line 45:	`redBright: [91, 39],` > `redBright: [91],'`
+MUTANT 42:	RAEM index.js Line 46:	`greenBright: [92, 39],` > `greenBright: [39],'`
+MUTANT 43:	RAEM index.js Line 46:	`greenBright: [92, 39],` > `greenBright: [92],'`
+MUTANT 44:	RAEM index.js Line 47:	`yellowBright: [93, 39],` > `yellowBright: [39],'`
+MUTANT 45:	RAEM index.js Line 47:	`yellowBright: [93, 39],` > `yellowBright: [93],'`
+MUTANT 46:	RAEM index.js Line 48:	`blueBright: [94, 39],` > `blueBright: [39],'`
+MUTANT 47:	RAEM index.js Line 48:	`blueBright: [94, 39],` > `blueBright: [94],'`
+MUTANT 48:	RAEM index.js Line 49:	`magentaBright: [95, 39],` > `magentaBright: [39],'`
+MUTANT 49:	RAEM index.js Line 49:	`magentaBright: [95, 39],` > `magentaBright: [95],'`
+MUTANT 50:	RAEM index.js Line 50:	`cyanBright: [96, 39],` > `cyanBright: [39],'`
+MUTANT 51:	RAEM index.js Line 50:	`cyanBright: [96, 39],` > `cyanBright: [96],'`
+MUTANT 52:	RAEM index.js Line 51:	`whiteBright: [97, 39]` > `whiteBright: [39]'`
+MUTANT 53:	RAEM index.js Line 51:	`whiteBright: [97, 39]` > `whiteBright: [97]'`
+MUTANT 54:	RAEM index.js Line 54:	`bgBlack: [40, 49],` > `bgBlack: [49],'`
+MUTANT 55:	RAEM index.js Line 54:	`bgBlack: [40, 49],` > `bgBlack: [40],'`
+MUTANT 56:	RAEM index.js Line 55:	`bgRed: [41, 49],` > `bgRed: [49],'`
+MUTANT 57:	RAEM index.js Line 55:	`bgRed: [41, 49],` > `bgRed: [41],'`
+MUTANT 58:	RAEM index.js Line 56:	`bgGreen: [42, 49],` > `bgGreen: [49],'`
+MUTANT 59:	RAEM index.js Line 56:	`bgGreen: [42, 49],` > `bgGreen: [42],'`
+MUTANT 60:	RAEM index.js Line 57:	`bgYellow: [43, 49],` > `bgYellow: [49],'`
+MUTANT 61:	RAEM index.js Line 57:	`bgYellow: [43, 49],` > `bgYellow: [43],'`
+MUTANT 62:	RAEM index.js Line 58:	`bgBlue: [44, 49],` > `bgBlue: [49],'`
+MUTANT 63:	RAEM index.js Line 58:	`bgBlue: [44, 49],` > `bgBlue: [44],'`
+MUTANT 64:	RAEM index.js Line 59:	`bgMagenta: [45, 49],` > `bgMagenta: [49],'`
+MUTANT 65:	RAEM index.js Line 59:	`bgMagenta: [45, 49],` > `bgMagenta: [45],'`
+MUTANT 66:	RAEM index.js Line 60:	`bgCyan: [46, 49],` > `bgCyan: [49],'`
+MUTANT 67:	RAEM index.js Line 60:	`bgCyan: [46, 49],` > `bgCyan: [46],'`
+MUTANT 68:	RAEM index.js Line 61:	`bgWhite: [47, 49],` > `bgWhite: [49],'`
+MUTANT 69:	RAEM index.js Line 61:	`bgWhite: [47, 49],` > `bgWhite: [47],'`
+MUTANT 70:	RAEM index.js Line 64:	`bgBlackBright: [100, 49],` > `bgBlackBright: [49],'`
+MUTANT 71:	RAEM index.js Line 64:	`bgBlackBright: [100, 49],` > `bgBlackBright: [100],'`
+MUTANT 72:	RAEM index.js Line 65:	`bgRedBright: [101, 49],` > `bgRedBright: [49],'`
+MUTANT 73:	RAEM index.js Line 65:	`bgRedBright: [101, 49],` > `bgRedBright: [101],'`
+MUTANT 74:	RAEM index.js Line 66:	`bgGreenBright: [102, 49],` > `bgGreenBright: [49],'`
+MUTANT 75:	RAEM index.js Line 66:	`bgGreenBright: [102, 49],` > `bgGreenBright: [102],'`
+MUTANT 76:	RAEM index.js Line 67:	`bgYellowBright: [103, 49],` > `bgYellowBright: [49],'`
+MUTANT 77:	RAEM index.js Line 67:	`bgYellowBright: [103, 49],` > `bgYellowBright: [103],'`
+MUTANT 78:	RAEM index.js Line 68:	`bgBlueBright: [104, 49],` > `bgBlueBright: [49],'`
+MUTANT 79:	RAEM index.js Line 68:	`bgBlueBright: [104, 49],` > `bgBlueBright: [104],'`
+MUTANT 80:	RAEM index.js Line 69:	`bgMagentaBright: [105, 49],` > `bgMagentaBright: [49],'`
+MUTANT 81:	RAEM index.js Line 69:	`bgMagentaBright: [105, 49],` > `bgMagentaBright: [105],'`
+MUTANT 82:	RAEM index.js Line 70:	`bgCyanBright: [106, 49],` > `bgCyanBright: [49],'`
+MUTANT 83:	RAEM index.js Line 70:	`bgCyanBright: [106, 49],` > `bgCyanBright: [106],'`
+MUTANT 84:	RAEM index.js Line 71:	`bgWhiteBright: [107, 49]` > `bgWhiteBright: [49]'`
+MUTANT 85:	RAEM index.js Line 71:	`bgWhiteBright: [107, 49]` > `bgWhiteBright: [107]'`
+MUTANT 86:	RAEM index.js Line 106:	`const rgb2rgb = (r, g, b) => [r, g, b];` > `const rgb2rgb = (r, g, b) => [g, b];'`
+MUTANT 87:	RAEM index.js Line 106:	`const rgb2rgb = (r, g, b) => [r, g, b];` > `const rgb2rgb = (r, g, b) => [r, b];'`
+MUTANT 88:	RAEM index.js Line 106:	`const rgb2rgb = (r, g, b) => [r, g, b];` > `const rgb2rgb = (r, g, b) => [r, g];'`
+MUTANT 89:	RCM index.js Line 132:	`if (typeof colorConvert[key] !== 'object') {` > `if (true) {'`
+MUTANT 90:	RCM index.js Line 132:	`if (typeof colorConvert[key] !== 'object') {` > `if (false) {'`
+MUTANT 91:	RCM index.js Line 138:	`if (key === 'ansi16') {` > `if (true) {'`
+MUTANT 92:	RCM index.js Line 138:	`if (key === 'ansi16') {` > `if (false) {'`
+MUTANT 93:	RFCAM index.js Line 2:	`const colorConvert = require('color-convert');` > `const colorConvert = require();'`
+MUTANT 94:	RFCAM index.js Line 5:	`const code = fn.apply(colorConvert, arguments);` > `const code = fn.apply(arguments);'`
+MUTANT 95:	RFCAM index.js Line 5:	`const code = fn.apply(colorConvert, arguments);` > `const code = fn.apply(colorConvert);'`
+MUTANT 96:	RFCAM index.js Line 10:	`const code = fn.apply(colorConvert, arguments);` > `const code = fn.apply(arguments);'`
+MUTANT 97:	RFCAM index.js Line 10:	`const code = fn.apply(colorConvert, arguments);` > `const code = fn.apply(colorConvert);'`
+MUTANT 98:	RFCAM index.js Line 15:	`const rgb = fn.apply(colorConvert, arguments);` > `const rgb = fn.apply(arguments);'`
+MUTANT 99:	RFCAM index.js Line 15:	`const rgb = fn.apply(colorConvert, arguments);` > `const rgb = fn.apply(colorConvert);'`
+MUTANT 100:	RFCAM index.js Line 78:	`for (const groupName of Object.keys(styles)) {` > `for (const groupName of Object.keys()) {'`
+MUTANT 101:	RFCAM index.js Line 81:	`for (const styleName of Object.keys(group)) {` > `for (const styleName of Object.keys()) {'`
+MUTANT 102:	RFCAM index.js Line 91:	`codes.set(style[0], style[1]);` > `codes.set(style[1]);'`
+MUTANT 103:	RFCAM index.js Line 91:	`codes.set(style[0], style[1]);` > `codes.set(style[0]);'`
+MUTANT 104:	RFCAM index.js Line 94:	`Object.defineProperty(styles, groupName, {` > `Object.defineProperty(groupName, {'`
+MUTANT 105:	RFCAM index.js Line 94:	`Object.defineProperty(styles, groupName, {` > `Object.defineProperty(styles, {'`
+MUTANT 106:	RFCAM index.js Line 94:	`Object.defineProperty(styles, groupName, {` > `Object.defineProperty(styles, groupNamebject.defineProperty(styles, groupName, {'`
+MUTANT 107:	RFCAM index.js Line 99:	`Object.defineProperty(styles, 'codes', {` > `Object.defineProperty('codes', {'`
+MUTANT 108:	RFCAM index.js Line 99:	`Object.defineProperty(styles, 'codes', {` > `Object.defineProperty(styles, {'`
+MUTANT 109:	RFCAM index.js Line 99:	`Object.defineProperty(styles, 'codes', {` > `Object.defineProperty(styles, 'codes'bject.defineProperty(styles, 'codes', {'`
+MUTANT 110:	RFCAM index.js Line 112:	`ansi: wrapAnsi16(ansi2ansi, 0)` > `ansi: wrapAnsi16(0)'`
+MUTANT 111:	RFCAM index.js Line 112:	`ansi: wrapAnsi16(ansi2ansi, 0)` > `ansi: wrapAnsi16(ansi2ansi)'`
+MUTANT 112:	RFCAM index.js Line 115:	`ansi256: wrapAnsi256(ansi2ansi, 0)` > `ansi256: wrapAnsi256(0)'`
+MUTANT 113:	RFCAM index.js Line 115:	`ansi256: wrapAnsi256(ansi2ansi, 0)` > `ansi256: wrapAnsi256(ansi2ansi)'`
+MUTANT 114:	RFCAM index.js Line 118:	`rgb: wrapAnsi16m(rgb2rgb, 0)` > `rgb: wrapAnsi16m(0)'`
+MUTANT 115:	RFCAM index.js Line 118:	`rgb: wrapAnsi16m(rgb2rgb, 0)` > `rgb: wrapAnsi16m(rgb2rgb)'`
+MUTANT 116:	RFCAM index.js Line 122:	`ansi: wrapAnsi16(ansi2ansi, 10)` > `ansi: wrapAnsi16(10)'`
+MUTANT 117:	RFCAM index.js Line 122:	`ansi: wrapAnsi16(ansi2ansi, 10)` > `ansi: wrapAnsi16(ansi2ansi)'`
+MUTANT 118:	RFCAM index.js Line 125:	`ansi256: wrapAnsi256(ansi2ansi, 10)` > `ansi256: wrapAnsi256(10)'`
+MUTANT 119:	RFCAM index.js Line 125:	`ansi256: wrapAnsi256(ansi2ansi, 10)` > `ansi256: wrapAnsi256(ansi2ansi)'`
+MUTANT 120:	RFCAM index.js Line 128:	`rgb: wrapAnsi16m(rgb2rgb, 10)` > `rgb: wrapAnsi16m(10)'`
+MUTANT 121:	RFCAM index.js Line 128:	`rgb: wrapAnsi16m(rgb2rgb, 10)` > `rgb: wrapAnsi16m(rgb2rgb)'`
+MUTANT 122:	RFCAM index.js Line 131:	`for (let key of Object.keys(colorConvert)) {` > `for (let key of Object.keys()) {'`
+MUTANT 123:	RFCAM index.js Line 143:	`styles.color.ansi[key] = wrapAnsi16(suite.ansi16, 0);` > `styles.color.ansi[key] = wrapAnsi16(0);'`
+MUTANT 124:	RFCAM index.js Line 143:	`styles.color.ansi[key] = wrapAnsi16(suite.ansi16, 0);` > `styles.color.ansi[key] = wrapAnsi16(suite.ansi16);'`
+MUTANT 125:	RFCAM index.js Line 144:	`styles.bgColor.ansi[key] = wrapAnsi16(suite.ansi16, 10);` > `styles.bgColor.ansi[key] = wrapAnsi16(10);'`
+MUTANT 126:	RFCAM index.js Line 144:	`styles.bgColor.ansi[key] = wrapAnsi16(suite.ansi16, 10);` > `styles.bgColor.ansi[key] = wrapAnsi16(suite.ansi16);'`
+MUTANT 127:	RFCAM index.js Line 148:	`styles.color.ansi256[key] = wrapAnsi256(suite.ansi256, 0);` > `styles.color.ansi256[key] = wrapAnsi256(0);'`
+MUTANT 128:	RFCAM index.js Line 148:	`styles.color.ansi256[key] = wrapAnsi256(suite.ansi256, 0);` > `styles.color.ansi256[key] = wrapAnsi256(suite.ansi256);'`
+MUTANT 129:	RFCAM index.js Line 149:	`styles.bgColor.ansi256[key] = wrapAnsi256(suite.ansi256, 10);` > `styles.bgColor.ansi256[key] = wrapAnsi256(10);'`
+MUTANT 130:	RFCAM index.js Line 149:	`styles.bgColor.ansi256[key] = wrapAnsi256(suite.ansi256, 10);` > `styles.bgColor.ansi256[key] = wrapAnsi256(suite.ansi256);'`
+MUTANT 131:	RFCAM index.js Line 153:	`styles.color.ansi16m[key] = wrapAnsi16m(suite.rgb, 0);` > `styles.color.ansi16m[key] = wrapAnsi16m(0);'`
+MUTANT 132:	RFCAM index.js Line 153:	`styles.color.ansi16m[key] = wrapAnsi16m(suite.rgb, 0);` > `styles.color.ansi16m[key] = wrapAnsi16m(suite.rgb);'`
+MUTANT 133:	RFCAM index.js Line 154:	`styles.bgColor.ansi16m[key] = wrapAnsi16m(suite.rgb, 10);` > `styles.bgColor.ansi16m[key] = wrapAnsi16m(10);'`
+MUTANT 134:	RFCAM index.js Line 154:	`styles.bgColor.ansi16m[key] = wrapAnsi16m(suite.rgb, 10);` > `styles.bgColor.ansi16m[key] = wrapAnsi16m(suite.rgb);'`
+MUTANT 135:	RFCAM index.js Line 162:	`Object.defineProperty(module, 'exports', {` > `Object.defineProperty('exports', {'`
+MUTANT 136:	RFCAM index.js Line 162:	`Object.defineProperty(module, 'exports', {` > `Object.defineProperty(module, {'`
+MUTANT 137:	RFCAM index.js Line 162:	`Object.defineProperty(module, 'exports', {` > `Object.defineProperty(module, 'exports'bject.defineProperty(module, 'exports', {'`
+MUTANT 138:	RFM Lines 4-7: Commented function (assigned / anonymous)
+MUTANT 139:	RFM Lines 4-7: Commented function (assigned / anonymous)
+MUTANT 140:	RFM Lines 9-12: Commented function (assigned / anonymous)
+MUTANT 141:	RFM Lines 9-12: Commented function (assigned / anonymous)
+MUTANT 142:	RFM Lines 14-17: Commented function (assigned / anonymous)
+MUTANT 143:	RFM Lines 14-17: Commented function (assigned / anonymous)
+MUTANT 144:	RFM Lines 19-159: Commented function assembleStyles
+MUTANT 145:	RFM Lines 105-105: Commented function (assigned / anonymous)
+MUTANT 146:	RFM Lines 106-106: Commented function (assigned / anonymous)
+MUTANT 147:	RLM Commented line 2:	const colorConvert = require('color-convert');
+MUTANT 148:	RLM Commented line 5:	const code = fn.apply(colorConvert, arguments);
+MUTANT 149:	RLM Commented line 6:	return `\u001B[${code + offset}m`;
+MUTANT 150:	RLM Commented line 10:	const code = fn.apply(colorConvert, arguments);
+MUTANT 151:	RLM Commented line 11:	return `\u001B[${38 + offset};5;${code}m`;
+MUTANT 152:	RLM Commented line 15:	const rgb = fn.apply(colorConvert, arguments);
+MUTANT 153:	RLM Commented line 16:	return `\u001B[${38 + offset};2;${rgb[0]};${rgb[1]};${rgb[2]}m`;
+MUTANT 154:	RLM Commented line 20:	const codes = new Map();
+MUTANT 155:	RLM Commented line 76:	styles.color.grey = styles.color.gray;
+MUTANT 156:	RLM Commented line 79:	const group = styles[groupName];
+MUTANT 157:	RLM Commented line 82:	const style = group[styleName];
+MUTANT 158:	RLM Commented line 89:	group[styleName] = styles[styleName];
+MUTANT 159:	RLM Commented line 91:	codes.set(style[0], style[1]);
+MUTANT 160:	RLM Commented line 105:	const ansi2ansi = n => n;
+MUTANT 161:	RLM Commented line 106:	const rgb2rgb = (r, g, b) => [r, g, b];
+MUTANT 162:	RLM Commented line 108:	styles.color.close = '\u001B[39m';
+MUTANT 163:	RLM Commented line 109:	styles.bgColor.close = '\u001B[49m';
+MUTANT 164:	RLM Commented line 133:	continue;
+MUTANT 165:	RLM Commented line 136:	const suite = colorConvert[key];
+MUTANT 166:	RLM Commented line 139:	key = 'ansi';
+MUTANT 167:	RLM Commented line 143:	styles.color.ansi[key] = wrapAnsi16(suite.ansi16, 0);
+MUTANT 168:	RLM Commented line 144:	styles.bgColor.ansi[key] = wrapAnsi16(suite.ansi16, 10);
+MUTANT 169:	RLM Commented line 148:	styles.color.ansi256[key] = wrapAnsi256(suite.ansi256, 0);
+MUTANT 170:	RLM Commented line 149:	styles.bgColor.ansi256[key] = wrapAnsi256(suite.ansi256, 10);
+MUTANT 171:	RLM Commented line 153:	styles.color.ansi16m[key] = wrapAnsi16m(suite.rgb, 0);
+MUTANT 172:	RLM Commented line 154:	styles.bgColor.ansi16m[key] = wrapAnsi16m(suite.rgb, 10);
+MUTANT 173:	RLM Commented line 158:	return styles;
+MUTANT 174:	ROPM Lines 22-32: Commented property modifier
+MUTANT 175:	ROPM index.js Line 23:	`reset: [0, 0],` > `'`
+MUTANT 176:	ROPM index.js Line 25:	`bold: [1, 22],` > `'`
+MUTANT 177:	ROPM index.js Line 26:	`dim: [2, 22],` > `'`
+MUTANT 178:	ROPM index.js Line 27:	`italic: [3, 23],` > `'`
+MUTANT 179:	ROPM index.js Line 28:	`underline: [4, 24],` > `'`
+MUTANT 180:	ROPM index.js Line 29:	`inverse: [7, 27],` > `'`
+MUTANT 181:	ROPM index.js Line 30:	`hidden: [8, 28],` > `'`
+MUTANT 182:	ROPM index.js Line 31:	`strikethrough: [9, 29]` > `'`
+MUTANT 183:	ROPM Lines 33-52: Commented property color
+MUTANT 184:	ROPM index.js Line 34:	`black: [30, 39],` > `'`
+MUTANT 185:	ROPM index.js Line 35:	`red: [31, 39],` > `'`
+MUTANT 186:	ROPM index.js Line 36:	`green: [32, 39],` > `'`
+MUTANT 187:	ROPM index.js Line 37:	`yellow: [33, 39],` > `'`
+MUTANT 188:	ROPM index.js Line 38:	`blue: [34, 39],` > `'`
+MUTANT 189:	ROPM index.js Line 39:	`magenta: [35, 39],` > `'`
+MUTANT 190:	ROPM index.js Line 40:	`cyan: [36, 39],` > `'`
+MUTANT 191:	ROPM index.js Line 41:	`white: [37, 39],` > `'`
+MUTANT 192:	ROPM index.js Line 42:	`gray: [90, 39],` > `'`
+MUTANT 193:	ROPM index.js Line 45:	`redBright: [91, 39],` > `'`
+MUTANT 194:	ROPM index.js Line 46:	`greenBright: [92, 39],` > `'`
+MUTANT 195:	ROPM index.js Line 47:	`yellowBright: [93, 39],` > `'`
+MUTANT 196:	ROPM index.js Line 48:	`blueBright: [94, 39],` > `'`
+MUTANT 197:	ROPM index.js Line 49:	`magentaBright: [95, 39],` > `'`
+MUTANT 198:	ROPM index.js Line 50:	`cyanBright: [96, 39],` > `'`
+MUTANT 199:	ROPM index.js Line 51:	`whiteBright: [97, 39]` > `'`
+MUTANT 200:	ROPM Lines 53-72: Commented property bgColor
+MUTANT 201:	ROPM index.js Line 54:	`bgBlack: [40, 49],` > `'`
+MUTANT 202:	ROPM index.js Line 55:	`bgRed: [41, 49],` > `'`
+MUTANT 203:	ROPM index.js Line 56:	`bgGreen: [42, 49],` > `'`
+MUTANT 204:	ROPM index.js Line 57:	`bgYellow: [43, 49],` > `'`
+MUTANT 205:	ROPM index.js Line 58:	`bgBlue: [44, 49],` > `'`
+MUTANT 206:	ROPM index.js Line 59:	`bgMagenta: [45, 49],` > `'`
+MUTANT 207:	ROPM index.js Line 60:	`bgCyan: [46, 49],` > `'`
+MUTANT 208:	ROPM index.js Line 61:	`bgWhite: [47, 49],` > `'`
+MUTANT 209:	ROPM index.js Line 64:	`bgBlackBright: [100, 49],` > `'`
+MUTANT 210:	ROPM index.js Line 65:	`bgRedBright: [101, 49],` > `'`
+MUTANT 211:	ROPM index.js Line 66:	`bgGreenBright: [102, 49],` > `'`
+MUTANT 212:	ROPM index.js Line 67:	`bgYellowBright: [103, 49],` > `'`
+MUTANT 213:	ROPM index.js Line 68:	`bgBlueBright: [104, 49],` > `'`
+MUTANT 214:	ROPM index.js Line 69:	`bgMagentaBright: [105, 49],` > `'`
+MUTANT 215:	ROPM index.js Line 70:	`bgCyanBright: [106, 49],` > `'`
+MUTANT 216:	ROPM index.js Line 71:	`bgWhiteBright: [107, 49]` > `'`
+MUTANT 217:	ROPM index.js Line 85:	`open: `\u001B[${style[0]}m`,` > `'`
+MUTANT 218:	ROPM index.js Line 86:	`close: `\u001B[${style[1]}m`` > `'`
+MUTANT 219:	ROPM index.js Line 95:	`value: group,` > `'`
+MUTANT 220:	ROPM index.js Line 96:	`enumerable: false` > `'`
+MUTANT 221:	ROPM index.js Line 100:	`value: codes,` > `'`
+MUTANT 222:	ROPM index.js Line 101:	`enumerable: false` > `'`
+MUTANT 223:	ROPM index.js Line 112:	`ansi: wrapAnsi16(ansi2ansi, 0)` > `'`
+MUTANT 224:	ROPM index.js Line 115:	`ansi256: wrapAnsi256(ansi2ansi, 0)` > `'`
+MUTANT 225:	ROPM index.js Line 118:	`rgb: wrapAnsi16m(rgb2rgb, 0)` > `'`
+MUTANT 226:	ROPM index.js Line 122:	`ansi: wrapAnsi16(ansi2ansi, 10)` > `'`
+MUTANT 227:	ROPM index.js Line 125:	`ansi256: wrapAnsi256(ansi2ansi, 10)` > `'`
+MUTANT 228:	ROPM index.js Line 128:	`rgb: wrapAnsi16m(rgb2rgb, 10)` > `'`
+MUTANT 229:	ROPM index.js Line 163:	`enumerable: true,` > `'`
+MUTANT 230:	ROPM index.js Line 164:	`get: assembleStyles` > `'`

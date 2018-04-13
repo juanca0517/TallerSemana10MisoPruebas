@@ -1,0 +1,241 @@
+Deleting copies...Done
+Creating a copy of your module... Done
+Loading mutators... Done
+Verifying and timing your test suite
+Took 7.50 seconds to run full test suite
+Running mutants for index.js
+MUTANT 1:	MM Line 6:	return `\u001B[${code +- offset}m`;	killed 5934 ms
+MUTANT 2:	MM Line 11:	return `\u001B[${38 +- offset};5;${code}m`;	killed 6481 ms
+MUTANT 3:	MM Line 16:	return `\u001B[${38 +- offset};2;${rgb[0]};${rgb[1]};${rgb[2]}m`;	killed 6185 ms
+MUTANT 4:	NCM Line 132:	if (typeof colorConvert[key] !===== 'object') {	killed 5724 ms
+MUTANT 5:	NCM Line 138:	if (key ===!== 'ansi16') {	killed 6014 ms
+MUTANT 6:	RAEM Line 23:	reset: [0, 0],	killed 6077 ms
+MUTANT 7:	RAEM Line 23:	reset: [0, 0],	killed 6024 ms
+MUTANT 8:	RAEM Line 25:	bold: [1, 22],	killed 5805 ms
+MUTANT 9:	RAEM Line 25:	bold: [1, 22],	killed 5882 ms
+MUTANT 10:	RAEM Line 26:	dim: [2, 22],	survived 6850 ms
+MUTANT 11:	RAEM Line 26:	dim: [2, 22],	survived 8110 ms
+MUTANT 12:	RAEM Line 27:	italic: [3, 23],	survived 6446 ms
+MUTANT 13:	RAEM Line 27:	italic: [3, 23],	survived 5861 ms
+MUTANT 14:	RAEM Line 28:	underline: [4, 24],	survived 5770 ms
+MUTANT 15:	RAEM Line 28:	underline: [4, 24],	survived 5817 ms
+MUTANT 16:	RAEM Line 29:	inverse: [7, 27],	survived 5821 ms
+MUTANT 17:	RAEM Line 29:	inverse: [7, 27],	survived 5843 ms
+MUTANT 18:	RAEM Line 30:	hidden: [8, 28],	survived 5967 ms
+MUTANT 19:	RAEM Line 30:	hidden: [8, 28],	survived 5852 ms
+MUTANT 20:	RAEM Line 31:	strikethrough: [9, 29]	survived 5991 ms
+MUTANT 21:	RAEM Line 31:	strikethrough: [9, 29]	survived 6260 ms
+MUTANT 22:	RAEM Line 34:	black: [30, 39],	survived 6186 ms
+MUTANT 23:	RAEM Line 34:	black: [30, 39],	survived 6049 ms
+MUTANT 24:	RAEM Line 35:	red: [31, 39],	survived 5830 ms
+MUTANT 25:	RAEM Line 35:	red: [31, 39],	survived 5973 ms
+MUTANT 26:	RAEM Line 36:	green: [32, 39],	killed 5863 ms
+MUTANT 27:	RAEM Line 36:	green: [32, 39],	killed 5733 ms
+MUTANT 28:	RAEM Line 37:	yellow: [33, 39],	survived 5802 ms
+MUTANT 29:	RAEM Line 37:	yellow: [33, 39],	survived 5945 ms
+MUTANT 30:	RAEM Line 38:	blue: [34, 39],	survived 5817 ms
+MUTANT 31:	RAEM Line 38:	blue: [34, 39],	survived 5761 ms
+MUTANT 32:	RAEM Line 39:	magenta: [35, 39],	survived 5767 ms
+MUTANT 33:	RAEM Line 39:	magenta: [35, 39],	survived 6859 ms
+MUTANT 34:	RAEM Line 40:	cyan: [36, 39],	survived 5978 ms
+MUTANT 35:	RAEM Line 40:	cyan: [36, 39],	survived 6630 ms
+MUTANT 36:	RAEM Line 41:	white: [37, 39],	survived 6013 ms
+MUTANT 37:	RAEM Line 41:	white: [37, 39],	survived 5868 ms
+MUTANT 38:	RAEM Line 42:	gray: [90, 39],	survived 6078 ms
+MUTANT 39:	RAEM Line 42:	gray: [90, 39],	survived 5822 ms
+MUTANT 40:	RAEM Line 45:	redBright: [91, 39],	killed 5944 ms
+MUTANT 41:	RAEM Line 45:	redBright: [91, 39],	killed 6270 ms
+MUTANT 42:	RAEM Line 46:	greenBright: [92, 39],	survived 6139 ms
+MUTANT 43:	RAEM Line 46:	greenBright: [92, 39],	survived 8196 ms
+MUTANT 44:	RAEM Line 47:	yellowBright: [93, 39],	survived 8663 ms
+MUTANT 45:	RAEM Line 47:	yellowBright: [93, 39],	survived 5886 ms
+MUTANT 46:	RAEM Line 48:	blueBright: [94, 39],	survived 5983 ms
+MUTANT 47:	RAEM Line 48:	blueBright: [94, 39],	survived 5715 ms
+MUTANT 48:	RAEM Line 49:	magentaBright: [95, 39],	survived 5860 ms
+MUTANT 49:	RAEM Line 49:	magentaBright: [95, 39],	survived 5765 ms
+MUTANT 50:	RAEM Line 50:	cyanBright: [96, 39],	survived 5999 ms
+MUTANT 51:	RAEM Line 50:	cyanBright: [96, 39],	survived 6160 ms
+MUTANT 52:	RAEM Line 51:	whiteBright: [97, 39]	survived 5824 ms
+MUTANT 53:	RAEM Line 51:	whiteBright: [97, 39]	survived 5988 ms
+MUTANT 54:	RAEM Line 54:	bgBlack: [40, 49],	killed 6500 ms
+MUTANT 55:	RAEM Line 54:	bgBlack: [40, 49],	killed 6451 ms
+MUTANT 56:	RAEM Line 55:	bgRed: [41, 49],	survived 6134 ms
+MUTANT 57:	RAEM Line 55:	bgRed: [41, 49],	survived 6050 ms
+MUTANT 58:	RAEM Line 56:	bgGreen: [42, 49],	killed 5972 ms
+MUTANT 59:	RAEM Line 56:	bgGreen: [42, 49],	survived 5939 ms
+MUTANT 60:	RAEM Line 57:	bgYellow: [43, 49],	survived 6044 ms
+MUTANT 61:	RAEM Line 57:	bgYellow: [43, 49],	survived 5796 ms
+MUTANT 62:	RAEM Line 58:	bgBlue: [44, 49],	survived 5988 ms
+MUTANT 63:	RAEM Line 58:	bgBlue: [44, 49],	survived 5973 ms
+MUTANT 64:	RAEM Line 59:	bgMagenta: [45, 49],	survived 6127 ms
+MUTANT 65:	RAEM Line 59:	bgMagenta: [45, 49],	survived 6007 ms
+MUTANT 66:	RAEM Line 60:	bgCyan: [46, 49],	survived 5903 ms
+MUTANT 67:	RAEM Line 60:	bgCyan: [46, 49],	survived 5900 ms
+MUTANT 68:	RAEM Line 61:	bgWhite: [47, 49],	survived 5913 ms
+MUTANT 69:	RAEM Line 61:	bgWhite: [47, 49],	survived 6029 ms
+MUTANT 70:	RAEM Line 64:	bgBlackBright: [100, 49],	killed 5839 ms
+MUTANT 71:	RAEM Line 64:	bgBlackBright: [100, 49],	killed 6075 ms
+MUTANT 72:	RAEM Line 65:	bgRedBright: [101, 49],	survived 5834 ms
+MUTANT 73:	RAEM Line 65:	bgRedBright: [101, 49],	survived 5814 ms
+MUTANT 74:	RAEM Line 66:	bgGreenBright: [102, 49],	survived 5832 ms
+MUTANT 75:	RAEM Line 66:	bgGreenBright: [102, 49],	survived 6094 ms
+MUTANT 76:	RAEM Line 67:	bgYellowBright: [103, 49],	survived 6628 ms
+MUTANT 77:	RAEM Line 67:	bgYellowBright: [103, 49],	survived 7267 ms
+MUTANT 78:	RAEM Line 68:	bgBlueBright: [104, 49],	survived 5741 ms
+MUTANT 79:	RAEM Line 68:	bgBlueBright: [104, 49],	survived 5744 ms
+MUTANT 80:	RAEM Line 69:	bgMagentaBright: [105, 49],	survived 5970 ms
+MUTANT 81:	RAEM Line 69:	bgMagentaBright: [105, 49],	survived 5968 ms
+MUTANT 82:	RAEM Line 70:	bgCyanBright: [106, 49],	survived 5830 ms
+MUTANT 83:	RAEM Line 70:	bgCyanBright: [106, 49],	survived 5788 ms
+MUTANT 84:	RAEM Line 71:	bgWhiteBright: [107, 49]	survived 7578 ms
+MUTANT 85:	RAEM Line 71:	bgWhiteBright: [107, 49]	survived 5986 ms
+MUTANT 86:	RAEM Line 106:	const rgb2rgb = (r, g, b) => [r, g, b];	killed 6016 ms
+MUTANT 87:	RAEM Line 106:	const rgb2rgb = (r, g, b) => [r, g, b];	killed 5977 ms
+MUTANT 88:	RAEM Line 106:	const rgb2rgb = (r, g, b) => [r, g, b];	killed 3660 ms
+MUTANT 89:	RCM Line 132:	if (typeoftrue) colorConvert[key] !== 'object') {	killed 3738 ms
+MUTANT 90:	RCM Line 132:	if (typeoffalse) colorConvert[key] !== 'object') {	killed 3704 ms
+MUTANT 91:	RCM Line 138:	if (keytrue) === 'ansi16') {	killed 3691 ms
+MUTANT 92:	RCM Line 138:	if (keyfalse) === 'ansi16') {	killed 3783 ms
+MUTANT 93:	RFCAM Line 2:	const colorConvert = require('color-convert');();	killed 3420 ms
+MUTANT 94:	RFCAM Line 5:	const code = fn.apply(colorConvert, arguments);	killed 5923 ms
+MUTANT 95:	RFCAM Line 5:	const code = fn.apply(colorConvert, arguments);	killed 6073 ms
+MUTANT 96:	RFCAM Line 10:	const code = fn.apply(colorConvert, arguments);	killed 8448 ms
+MUTANT 97:	RFCAM Line 10:	const code = fn.apply(colorConvert, arguments);	killed 7655 ms
+MUTANT 98:	RFCAM Line 15:	const rgb = fn.apply(colorConvert, arguments);	killed 5873 ms
+MUTANT 99:	RFCAM Line 15:	const rgb = fn.apply(colorConvert, arguments);	killed 6077 ms
+MUTANT 100:	RFCAM Line 78:	for (const groupName of Object.keys(styles))()) {	killed 5893 ms
+MUTANT 101:	RFCAM Line 81:	for (const styleName of Object.keys(group))()) {	killed 5902 ms
+MUTANT 102:	RFCAM Line 91:	codes.set(style[0], style[1]);	killed 6438 ms
+MUTANT 103:	RFCAM Line 91:	codes.set(style[0], style[1]);	killed 5680 ms
+MUTANT 104:	RFCAM Line 94:	Object.defineProperty(styles, groupName, {	killed 6050 ms
+MUTANT 105:	RFCAM Line 94:	Object.defineProperty(styles, groupName, {	killed 5757 ms
+MUTANT 106:	RFCAM Line 94:	Object.defineProperty(styles, groupNamebject.defineProperty(styles, groupName, {	killed 3253 ms
+MUTANT 107:	RFCAM Line 99:	Object.defineProperty(styles, '('codes', {	killed 6091 ms
+MUTANT 108:	RFCAM Line 99:	Object.defineProperty(styles, 'codes', {	killed 5960 ms
+MUTANT 109:	RFCAM Line 99:	Object.defineProperty(styles, 'codes'bject.defineProperty(styles, 'codes', {	killed 3149 ms
+MUTANT 110:	RFCAM Line 112:	ansi: wrapAnsi16(ansi2ansi, 0)	survived 5761 ms
+MUTANT 111:	RFCAM Line 112:	ansi: wrapAnsi16(ansi2ansi, 0)	survived 5884 ms
+MUTANT 112:	RFCAM Line 115:	ansi256: wrapAnsi256(ansi2ansi, 0)	survived 5699 ms
+MUTANT 113:	RFCAM Line 115:	ansi256: wrapAnsi256(ansi2ansi, 0)	survived 6162 ms
+MUTANT 114:	RFCAM Line 118:	rgb: wrapAnsi16m(rgb2rgb, 0)	killed 6055 ms
+MUTANT 115:	RFCAM Line 118:	rgb: wrapAnsi16m(rgb2rgb, 0)	killed 6293 ms
+MUTANT 116:	RFCAM Line 122:	ansi: wrapAnsi16(ansi2ansi, 10)	survived 5920 ms
+MUTANT 117:	RFCAM Line 122:	ansi: wrapAnsi16(ansi2ansi, 10)	survived 6014 ms
+MUTANT 118:	RFCAM Line 125:	ansi256: wrapAnsi256(ansi2ansi, 10)	survived 7635 ms
+MUTANT 119:	RFCAM Line 125:	ansi256: wrapAnsi256(ansi2ansi, 10)	survived 8172 ms
+MUTANT 120:	RFCAM Line 128:	rgb: wrapAnsi16m(rgb2rgb, 10)	killed 6758 ms
+MUTANT 121:	RFCAM Line 128:	rgb: wrapAnsi16m(rgb2rgb, 10)	killed 8527 ms
+MUTANT 122:	RFCAM Line 131:	for (let key of Object.keys(colorConvert))()) {	killed 7605 ms
+MUTANT 123:	RFCAM Line 143:	styles.color.ansi[key] = wrapAnsi16(suite.ansi16, 0);	killed 8250 ms
+MUTANT 124:	RFCAM Line 143:	styles.color.ansi[key] = wrapAnsi16(suite.ansi16, 0);	killed 10575 ms
+MUTANT 125:	RFCAM Line 144:	styles.bgColor.ansi[key] = wrapAnsi16(suite.ansi16, 10);	killed 7581 ms
+MUTANT 126:	RFCAM Line 144:	styles.bgColor.ansi[key] = wrapAnsi16(suite.ansi16, 10);	killed 5926 ms
+MUTANT 127:	RFCAM Line 148:	styles.color.ansi256[key] = wrapAnsi256(suite.ansi256, 0);	killed 5823 ms
+MUTANT 128:	RFCAM Line 148:	styles.color.ansi256[key] = wrapAnsi256(suite.ansi256, 0);	killed 6190 ms
+MUTANT 129:	RFCAM Line 149:	styles.bgColor.ansi256[key] = wrapAnsi256(suite.ansi256, 10);	killed 12881 ms
+MUTANT 130:	RFCAM Line 149:	styles.bgColor.ansi256[key] = wrapAnsi256(suite.ansi256, 10);	killed 13363 ms
+MUTANT 131:	RFCAM Line 153:	styles.color.ansi16m[key] = wrapAnsi16m(suite.rgb, 0);	killed 13940 ms
+MUTANT 132:	RFCAM Line 153:	styles.color.ansi16m[key] = wrapAnsi16m(suite.rgb, 0);	killed 13362 ms
+MUTANT 133:	RFCAM Line 154:	styles.bgColor.ansi16m[key] = wrapAnsi16m(suite.rgb, 10);	killed 10102 ms
+MUTANT 134:	RFCAM Line 154:	styles.bgColor.ansi16m[key] = wrapAnsi16m(suite.rgb, 10);	killed 11744 ms
+MUTANT 135:	RFCAM Line 162:	Object.defineProperty(module, '('exports', {	killed 9683 ms
+MUTANT 136:	RFCAM Line 162:	Object.defineProperty(module, 'exports', {	killed 5963 ms
+MUTANT 137:	RFCAM Line 162:	Object.defineProperty(module, 'exports'bject.defineProperty(module, 'exports', {	killed 3223 ms
+MUTANT 138:	RFM Lines 4-7: Commented function (assigned / anonymous)	killed 3829 ms
+MUTANT 139:	RFM Lines 4-7: Commented function (assigned / anonymous)	killed 3776 ms
+MUTANT 140:	RFM Lines 9-12: Commented function (assigned / anonymous)	killed 3784 ms
+MUTANT 141:	RFM Lines 9-12: Commented function (assigned / anonymous)	killed 3696 ms
+MUTANT 142:	RFM Lines 14-17: Commented function (assigned / anonymous)	killed 3800 ms
+MUTANT 143:	RFM Lines 14-17: Commented function (assigned / anonymous)	killed 3629 ms
+MUTANT 144:	RFM Lines 19-159: Commented function assembleStyles	killed 3875 ms
+MUTANT 145:	RFM Lines 105-105: Commented function (assigned / anonymous)	killed 3886 ms
+MUTANT 146:	RFM Lines 106-106: Commented function (assigned / anonymous)	killed 3843 ms
+MUTANT 147:	RLM Commented line 2:	const colorConvert = require('color-convert');	killed 4665 ms
+MUTANT 148:	RLM Commented line 5:	const code = fn.apply(colorConvert, arguments);	killed 3751 ms
+MUTANT 149:	RLM Commented line 6:	return `\u001B[${code + offset}m`;	killed 3803 ms
+MUTANT 150:	RLM Commented line 10:	const code = fn.apply(colorConvert, arguments);	killed 3790 ms
+MUTANT 151:	RLM Commented line 11:	return `\u001B[${38 + offset};5;${code}m`;	killed 3708 ms
+MUTANT 152:	RLM Commented line 15:	const rgb = fn.apply(colorConvert, arguments);	killed 3821 ms
+MUTANT 153:	RLM Commented line 16:	return `\u001B[${38 + offset};2;${rgb[0]};${rgb[1]};${rgb[2]}m`;	killed 3817 ms
+MUTANT 154:	RLM Commented line 20:	const codes = new Map();	killed 4276 ms
+MUTANT 155:	RLM Commented line 76:	styles.color.grey = styles.color.gray;	killed 3871 ms
+MUTANT 156:	RLM Commented line 79:	const group = styles[groupName];	killed 3834 ms
+MUTANT 157:	RLM Commented line 82:	const style = group[styleName];	killed 3899 ms
+MUTANT 158:	RLM Commented line 89:	group[styleName] = styles[styleName];	killed 3775 ms
+MUTANT 159:	RLM Commented line 91:	codes.set(style[0], style[1]);	killed 3759 ms
+MUTANT 160:	RLM Commented line 105:	const ansi2ansi = n => n;	killed 4008 ms
+MUTANT 161:	RLM Commented line 106:	const rgb2rgb = (r, g, b) => [r, g, b];	killed 3804 ms
+MUTANT 162:	RLM Commented line 108:	styles.color.close = '\u001B[39m';	killed 4274 ms
+MUTANT 163:	RLM Commented line 109:	styles.bgColor.close = '\u001B[49m';	killed 3965 ms
+MUTANT 164:	RLM Commented line 133:	continue;	killed 3784 ms
+MUTANT 165:	RLM Commented line 136:	const suite = colorConvert[key];	killed 3685 ms
+MUTANT 166:	RLM Commented line 139:	key = 'ansi';	killed 3735 ms
+MUTANT 167:	RLM Commented line 143:	styles.color.ansi[key] = wrapAnsi16(suite.ansi16, 0);	killed 3842 ms
+MUTANT 168:	RLM Commented line 144:	styles.bgColor.ansi[key] = wrapAnsi16(suite.ansi16, 10);	killed 3863 ms
+MUTANT 169:	RLM Commented line 148:	styles.color.ansi256[key] = wrapAnsi256(suite.ansi256, 0);	killed 5827 ms
+MUTANT 170:	RLM Commented line 149:	styles.bgColor.ansi256[key] = wrapAnsi256(suite.ansi256, 10);	killed 5311 ms
+MUTANT 171:	RLM Commented line 153:	styles.color.ansi16m[key] = wrapAnsi16m(suite.rgb, 0);	killed 8859 ms
+MUTANT 172:	RLM Commented line 154:	styles.bgColor.ansi16m[key] = wrapAnsi16m(suite.rgb, 10);	killed 9464 ms
+MUTANT 173:	RLM Commented line 158:	return styles;	killed 9896 ms
+MUTANT 174:	ROPM Lines 22-32: Commented property modifier	killed 7511 ms
+MUTANT 175:	ROPM Line 23:	reset: [0, 0],	killed 7531 ms
+MUTANT 176:	ROPM Line 25:	bold: [1, 22],	killed 7563 ms
+MUTANT 177:	ROPM Line 26:	dim: [2, 22],	killed 7583 ms
+MUTANT 178:	ROPM Line 27:	italic: [3, 23],	killed 4771 ms
+MUTANT 179:	ROPM Line 28:	underline: [4, 24],	killed 5184 ms
+MUTANT 180:	ROPM Line 29:	inverse: [7, 27],	killed 7302 ms
+MUTANT 181:	ROPM Line 30:	hidden: [8, 28],	killed 8075 ms
+MUTANT 182:	ROPM Line 31:	strikethrough: [9, 29]	killed 8736 ms
+MUTANT 183:	ROPM Lines 33-52: Commented property color	killed 7611 ms
+MUTANT 184:	ROPM Line 34:	black: [30, 39],	killed 8100 ms
+MUTANT 185:	ROPM Line 35:	red: [31, 39],	killed 9336 ms
+MUTANT 186:	ROPM Line 36:	green: [32, 39],	killed 8129 ms
+MUTANT 187:	ROPM Line 37:	yellow: [33, 39],	killed 8531 ms
+MUTANT 188:	ROPM Line 38:	blue: [34, 39],	killed 7882 ms
+MUTANT 189:	ROPM Line 39:	magenta: [35, 39],	killed 8231 ms
+MUTANT 190:	ROPM Line 40:	cyan: [36, 39],	killed 8109 ms
+MUTANT 191:	ROPM Line 41:	white: [37, 39],	killed 8505 ms
+MUTANT 192:	ROPM Line 42:	gray: [90, 39],	killed 7754 ms
+MUTANT 193:	ROPM Line 45:	redBright: [91, 39],	killed 7874 ms
+MUTANT 194:	ROPM Line 46:	greenBright: [92, 39],	killed 7985 ms
+MUTANT 195:	ROPM Line 47:	yellowBright: [93, 39],	killed 8611 ms
+MUTANT 196:	ROPM Line 48:	blueBright: [94, 39],	killed 9434 ms
+MUTANT 197:	ROPM Line 49:	magentaBright: [95, 39],	killed 9549 ms
+MUTANT 198:	ROPM Line 50:	cyanBright: [96, 39],	killed 9185 ms
+MUTANT 199:	ROPM Line 51:	whiteBright: [97, 39]	killed 9380 ms
+MUTANT 200:	ROPM Lines 53-72: Commented property bgColor	killed 9221 ms
+MUTANT 201:	ROPM Line 54:	bgBlack: [40, 49],	killed 10270 ms
+MUTANT 202:	ROPM Line 55:	bgRed: [41, 49],	killed 10964 ms
+MUTANT 203:	ROPM Line 56:	bgGreen: [42, 49],	killed 8565 ms
+MUTANT 204:	ROPM Line 57:	bgYellow: [43, 49],	killed 9016 ms
+MUTANT 205:	ROPM Line 58:	bgBlue: [44, 49],	killed 9529 ms
+MUTANT 206:	ROPM Line 59:	bgMagenta: [45, 49],	killed 9783 ms
+MUTANT 207:	ROPM Line 60:	bgCyan: [46, 49],	killed 9297 ms
+MUTANT 208:	ROPM Line 61:	bgWhite: [47, 49],	killed 10047 ms
+MUTANT 209:	ROPM Line 64:	bgBlackBright: [100, 49],	killed 9593 ms
+MUTANT 210:	ROPM Line 65:	bgRedBright: [101, 49],	killed 10485 ms
+MUTANT 211:	ROPM Line 66:	bgGreenBright: [102, 49],	killed 9822 ms
+MUTANT 212:	ROPM Line 67:	bgYellowBright: [103, 49],	killed 10068 ms
+MUTANT 213:	ROPM Line 68:	bgBlueBright: [104, 49],	killed 10156 ms
+MUTANT 214:	ROPM Line 69:	bgMagentaBright: [105, 49],	killed 10586 ms
+MUTANT 215:	ROPM Line 70:	bgCyanBright: [106, 49],	killed 10493 ms
+MUTANT 216:	ROPM Line 71:	bgWhiteBright: [107, 49]	killed 10589 ms
+MUTANT 217:	ROPM Line 85:	open: `\u001B[${style[0]}m`,	killed 8994 ms
+MUTANT 218:	ROPM Line 86:	close: `\u001B[${style[1]}m`	killed 10083 ms
+MUTANT 219:	ROPM Line 95:	value: group,	killed 10507 ms
+MUTANT 220:	ROPM Line 96:	enumerable: false	killed 10189 ms
+MUTANT 221:	ROPM Line 100:	value: codes,	killed 9486 ms
+MUTANT 222:	ROPM Line 101:	enumerable: false	killed 10303 ms
+MUTANT 223:	ROPM Line 112:	ansi: wrapAnsi16(ansi2ansi, 0)	killed 9042 ms
+MUTANT 224:	ROPM Line 115:	ansi256: wrapAnsi256(ansi2ansi, 0)	killed 7912 ms
+MUTANT 225:	ROPM Line 118:	rgb: wrapAnsi16m(rgb2rgb, 0)	killed 9107 ms
+MUTANT 226:	ROPM Line 122:	ansi: wrapAnsi16(ansi2ansi, 10)	killed 9498 ms
+MUTANT 227:	ROPM Line 125:	ansi256: wrapAnsi256(ansi2ansi, 10)	killed 9786 ms
+MUTANT 228:	ROPM Line 128:	rgb: wrapAnsi16m(rgb2rgb, 10)	killed 8859 ms
+MUTANT 229:	ROPM Line 163:	enumerable: true,	killed 9451 ms
+MUTANT 230:	ROPM Line 164:	get: assembleStyles	killed 8428 ms
+
+Out of 230 mutants, 155 were killed, 75 survived and 0 were discarded
+Mutant coverage: 67.39%
+
+Deleting copies...Done
